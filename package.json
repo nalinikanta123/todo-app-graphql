@@ -1,0 +1,30 @@
+{
+  "name": "todo-app-graphql",
+  "version": "1.0.0",
+  "description": "using GraphQl create a todo app",
+  "homepage": "https://github.com/nalinikanta123/todo-app-graphql#readme",
+  "bugs": {
+    "url": "https://github.com/nalinikanta123/todo-app-graphql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalinikanta123/todo-app-graphql.git"
+  },
+  "license": "ISC",
+  "author": "Nalini Kanta Mallick",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "mongoose": "^8.18.3",
+    "nodemon": "^3.1.10",
+    "ra-data-graphql": "^5.11.4"
+  }
+}
